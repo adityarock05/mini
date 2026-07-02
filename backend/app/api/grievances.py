@@ -224,7 +224,7 @@ async def list_grievances(
     # Students and Faculty can only see their own grievances (unless anonymous)
     if current_user["role"] in [UserRole.STUDENT.value, UserRole.FACULTY.value]:
         query = query.where(
-            (Grievance.submitter_id == current_user["id"])
+            (Grievance.submitter_id == uuid.UUID(current_user["id"]))
             | (Grievance.is_anonymous == True)
         )
 
