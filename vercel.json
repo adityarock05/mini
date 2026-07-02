@@ -1,12 +1,13 @@
 {
-    "experimentalServices": {
+    "services": {
         "frontend": {
             "root": "frontend/",
             "framework": "nextjs"
         },
         "backend": {
             "root": "backend/",
-            "framework": "fastapi"
+            "framework": "fastapi",
+            "entrypoint": "main:app"
         }
     },
     "rewrites": [
