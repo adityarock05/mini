@@ -1,0 +1,51 @@
+[
+    {
+        "email": "faculty1@pesce.ac.in",
+        "password": "password123",
+        "display_name": "Dr. Rajesh Kumar",
+        "department": "Computer Science",
+        "role": "FACULTY"
+    },
+    {
+        "email": "faculty2@pesce.ac.in",
+        "password": "password123",
+        "display_name": "Dr. Priya Sharma",
+        "department": "Electrical Engineering",
+        "role": "FACULTY"
+    },
+    {
+        "email": "authority1@pesce.ac.in",
+        "password": "password123",
+        "display_name": "Dr. Authority One",
+        "department": "Computer Science",
+        "role": "AUTHORITY"
+    },
+    {
+        "email": "authority2@pesce.ac.in",
+        "password": "password123",
+        "display_name": "Prof. Authority Two",
+        "department": "Mechanical Engineering",
+        "role": "AUTHORITY"
+    },
+    {
+        "email": "student1@students.pesce.ac.in",
+        "password": "password123",
+        "display_name": "Rahul Verma",
+        "department": "Computer Science",
+        "role": "STUDENT"
+    },
+    {
+        "email": "student2@students.pesce.ac.in",
+        "password": "password123",
+        "display_name": "Neha Gupta",
+        "department": "Electrical Engineering",
+        "role": "STUDENT"
+    },
+    {
+        "email": "admin@pesce.ac.in",
+        "password": "password123",
+        "display_name": "System Admin",
+        "department": "Computer Science",
+        "role": "ADMIN"
+    }
+]

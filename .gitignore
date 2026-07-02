@@ -1,0 +1,29 @@
+node_modules
+# Keep environment variables out of version control
+.env
+
+/generated/prisma
+
+# Backend uploads (local file storage)
+/backend/uploads/
+/backend/.venv/
+/backend/__pycache__/
+/backend/app/__pycache__/
+/backend/app/**/*.pyc
+/backend/.pytest_cache/
+
+# Frontend
+/frontend/.next/
+/frontend/out/
+/frontend/.vercel
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
