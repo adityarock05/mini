@@ -3,7 +3,7 @@ name = "backend"
 version = "0.1.0"
 description = "AEGIS Platform - IIT Mandi Campus Management System"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.9"
 dependencies = [
     "fastapi[standard]>=0.115.0",
     "sqlalchemy[asyncio]>=2.0.0",
